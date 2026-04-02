@@ -21,6 +21,11 @@ fbq('track', 'ViewContent');
 <title>Emmason Designs — Premium Creative Studio</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
+<link rel="preconnect" href="https://connect.facebook.net" crossorigin>
+<link rel="dns-prefetch" href="https://connect.facebook.net">
+<link rel="preload" as="image" href="https://cdn.jsdelivr.net/gh/mirabelfelix98/My-workflow@main/1772317471014.png">
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,600;0,9..144,700;0,9..144,900;1,9..144,300;1,9..144,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <style>
 :root{
@@ -96,7 +101,7 @@ section{padding:96px 60px}
 .sec-title em{font-style:italic;font-weight:300;color:var(--gold)}
  
 /* REVEAL */
-.r{transition:opacity .75s var(--ease),transform .75s var(--ease)}
+.r{transition:opacity .75s var(--ease),transform .75s var(--ease);will-change:transform,opacity}
 .js-on .r{opacity:0;transform:translateY(32px)}
 .js-on .r.v{opacity:1;transform:none}
 .d1{transition-delay:.1s}.d2{transition-delay:.2s}.d3{transition-delay:.3s}.d4{transition-delay:.4s}.d5{transition-delay:.5s}
@@ -228,7 +233,7 @@ src="https://www.facebook.com/tr?id=2438635346556151&ev=PageView&noscript=1"
 /></noscript>
  
 <nav id="nav">
-  <a href="#" class="nav-logo"><img src="https://cdn.jsdelivr.net/gh/mirabelfelix98/My-workflow@main/1772317471014.png" alt="Emmason Designs"></a>
+  <a href="#" class="nav-logo"><img src="https://cdn.jsdelivr.net/gh/mirabelfelix98/My-workflow@main/1772317471014.png" alt="Emmason Designs" fetchpriority="high" decoding="async"></a>
   <ul class="nav-links" id="nav-links">
     <li><a href="#services">SERVICES</a></li>
     <li><a href="#why">WHY US</a></li>
@@ -236,7 +241,7 @@ src="https://www.facebook.com/tr?id=2438635346556151&ev=PageView&noscript=1"
     <li><a href="#testimonials">PROOF</a></li>
   </ul>
   <div style="display: flex; align-items: center; gap: 16px;">
-    <a href="https://wa.link/qjvoko" target="_blank" class="nav-cta">Get a Quote</a>
+    <a href="https://wa.link/qjvoko" target="_blank" class="nav-cta">BOOK YOUR OFFER</a>
     <div class="menu-toggle" id="mobile-menu">
       <span class="bar"></span>
       <span class="bar"></span>
@@ -349,8 +354,8 @@ src="https://www.facebook.com/tr?id=2438635346556151&ev=PageView&noscript=1"
       </div>
     </div>
     <div class="sc-wrap">
-      <div class="sc-card r d2"><span class="sc-lbl">Live Reaction &#10003;</span><img src="https://cdn.jsdelivr.net/gh/mirabelfelix98/My-workflow@main/Screenshot_20260328_172109_WhatsApp.jpg" alt="Client feedback" loading="lazy"></div>
-      <div class="sc-card r d3"><span class="sc-lbl">Client Reaction &#10003;</span><img src="https://cdn.jsdelivr.net/gh/mirabelfelix98/My-workflow@main/Screenshot_20260328_102037_WhatsApp.jpg" alt="Client feedback" loading="lazy"></div>
+      <div class="sc-card r d2"><span class="sc-lbl">Live Reaction &#10003;</span><img src="https://cdn.jsdelivr.net/gh/mirabelfelix98/My-workflow@main/Screenshot_20260328_172109_WhatsApp.jpg" alt="Client feedback" loading="lazy" decoding="async"></div>
+      <div class="sc-card r d3"><span class="sc-lbl">Client Reaction &#10003;</span><img src="https://cdn.jsdelivr.net/gh/mirabelfelix98/My-workflow@main/Screenshot_20260328_102037_WhatsApp.jpg" alt="Client feedback" loading="lazy" decoding="async"></div>
     </div>
   </div>
 </section>
@@ -369,7 +374,7 @@ src="https://www.facebook.com/tr?id=2438635346556151&ev=PageView&noscript=1"
 <footer>
   <div class="ft-inner">
     <div>
-      <div class="ft-logo"><img src="https://cdn.jsdelivr.net/gh/mirabelfelix98/My-workflow@main/1772317471014.png" alt="Emmason Designs"></div>
+      <div class="ft-logo"><img src="https://cdn.jsdelivr.net/gh/mirabelfelix98/My-workflow@main/1772317471014.png" alt="Emmason Designs" loading="lazy" decoding="async"></div>
       <p class="ft-tag">Premium creative design studio based in Lagos, Nigeria. Building brands that command attention worldwide.</p>
     </div>
     <div class="ft-col"><h4>Services</h4><ul>
